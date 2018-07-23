@@ -1,0 +1,13 @@
+.loginForm {
+	border: 1px solid $primary-light;
+	margin: 15px;
+	padding: 15px;
+
+	&__legend {
+		font-weight: bold;
+	}
+
+	&__submit {
+		text-align: center;
+	}
+}

@@ -1,0 +1,25 @@
+.shadow {
+	-webkit-box-shadow: 10px 10px 12px -8px rgba(0,0,0,0.51);
+	-moz-box-shadow: 10px 10px 12px -8px rgba(0,0,0,0.51);
+	box-shadow: 10px 10px 12px -8px rgba(0,0,0,0.51);
+}
+
+.rounded-corners {
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.divider {
+	text-align:center;
+	background-color: $primary-light;
+	height: 3px;
+	margin-bottom: 25px;
+	margin-top: 25px;
+
+	&__image {
+		background-color: $light;
+		height: 70px;
+		margin-top: -32px;
+	}
+}

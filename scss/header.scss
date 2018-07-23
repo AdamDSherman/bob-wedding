@@ -1,0 +1,10 @@
+.header {
+	background-color: $light;
+	color: $off-light;
+	min-height: 75px;
+	border-bottom: 1px solid $primary-light;
+
+	&__logo {
+		margin: 10px 0;
+	}
+}

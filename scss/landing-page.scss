@@ -1,3 +1,29 @@
+.landing {
+	min-height: 500px;
+
+	&__header {
+		border-bottom: 1px solid $primary-light;
+	}
+
+	&__panel {
+		background-color: $light;
+		border: 1px solid $primary-light;
+		margin-top: 50px;
+		margin-bottom: 30px;
+		position: absolute;
+		z-index: 99;
+	}
+
+	&__countdown {
+		text-align: center;
+	}
+
+	&__image {
+		object-fit: cover;
+		width: 100%;
+	}
+}
+
 .loginForm {
 
 	&__legend {

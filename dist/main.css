@@ -70,6 +70,23 @@ h3 {
     font-size: .8rem;
     font-style: italic; }
 
+.landing {
+  min-height: 500px; }
+  .landing__header {
+    border-bottom: 1px solid #f8f8f8; }
+  .landing__panel {
+    background-color: #fff;
+    border: 1px solid #f8f8f8;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    position: absolute;
+    z-index: 99; }
+  .landing__countdown {
+    text-align: center; }
+  .landing__image {
+    object-fit: cover;
+    width: 100%; }
+
 .loginForm__legend {
   font-weight: bold; }
 

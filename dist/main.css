@@ -70,14 +70,11 @@ h3 {
     font-size: .8rem;
     font-style: italic; }
 
-.loginForm {
-  border: 1px solid #f8f8f8;
-  margin: 15px;
-  padding: 15px; }
-  .loginForm__legend {
-    font-weight: bold; }
-  .loginForm__submit {
-    text-align: center; }
+.loginForm__legend {
+  font-weight: bold; }
+
+.loginForm__submit {
+  text-align: center; }
 
 .footer {
   background-color: #f8f8f8;

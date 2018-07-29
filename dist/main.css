@@ -31,6 +31,12 @@ h3 {
     height: 70px;
     margin-top: -32px; }
 
+.button {
+  text-align: center;
+  font-weight: bold; }
+  .button--rose {
+    background-color: #FE6F81; }
+
 .header {
   background-color: #fff;
   color: #999;
@@ -74,6 +80,8 @@ h3 {
   min-height: 500px; }
   .landing__header {
     border-bottom: 1px solid #f8f8f8; }
+  .landing__logo {
+    padding: 10px; }
   .landing__panel {
     background-color: #fff;
     border: 1px solid #f8f8f8;
@@ -83,15 +91,15 @@ h3 {
     z-index: 99; }
   .landing__countdown {
     text-align: center; }
+  .landing__login {
+    width: 90%;
+    margin: 15px auto; }
   .landing__image {
     object-fit: cover;
     width: 100%; }
 
 .loginForm__legend {
   font-weight: bold; }
-
-.loginForm__submit {
-  text-align: center; }
 
 .footer {
   background-color: #f8f8f8;

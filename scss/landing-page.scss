@@ -1,36 +1,47 @@
 .landing {
-	min-height: 500px;
+  min-height: 500px;
 
-	&__header {
-		border-bottom: 1px solid $primary-light;
-	}
+  &__header {
+    border-bottom: 1px solid $primary-light;
+  }
 
-	&__panel {
-		background-color: $light;
-		border: 1px solid $primary-light;
-		margin-top: 50px;
-		margin-bottom: 30px;
-		position: absolute;
-		z-index: 99;
-	}
+  &__logo {
+    padding: 10px;
+  }
 
-	&__countdown {
-		text-align: center;
-	}
+  &__panel {
+    background-color: $light;
+    border: 1px solid $primary-light;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    position: absolute;
+    z-index: 99;
+  }
 
-	&__image {
-		object-fit: cover;
-		width: 100%;
-	}
+  &__countdown {
+    text-align: center;
+  }
+
+  &__login {
+    width: 90%;
+    margin: 15px auto;
+  }
+
+  &__image {
+    object-fit: cover;
+    width: 100%;
+  }
 }
 
 .loginForm {
 
-	&__legend {
-		font-weight: bold;
-	}
+  &__legend {
+    font-weight: bold;
+  }
 
-	&__submit {
-		text-align: center;
-	}
+  // &__submit {
+  //   text-align: center;
+  //   background-color: $rose;
+  //   font-weight: bold;
+  // }
 }

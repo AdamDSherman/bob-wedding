@@ -1,0 +1,9 @@
+//.button overides Foundation .button styles.
+.button {
+  text-align: center;
+  font-weight: bold;
+
+  &--rose {
+    background-color: $rose;
+  }
+}

@@ -2,12 +2,24 @@
 .button {
   text-align: center;
   font-weight: bold;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
 
   &--rose {
     background-color: $rose;
+    color: $light;
 
     &:hover {
       background-color: $light-rose;
+    }
+  }
+
+  &--muted {
+    background-color: $primary-light;
+
+    &:hover {
+      background-color: $light;
     }
   }
 }

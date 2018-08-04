@@ -39,13 +39,25 @@ h3 {
 .spacer--bottom {
   margin-bottom: 20px; }
 
+.gmap--content {
+  height: 300px;
+  width: 100%; }
+
 .button {
   text-align: center;
-  font-weight: bold; }
+  font-weight: bold;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px; }
   .button--rose {
-    background-color: #FE6F81; }
+    background-color: #FE6F81;
+    color: #fff; }
     .button--rose:hover {
       background-color: #FE9398; }
+  .button--muted {
+    background-color: #f8f8f8; }
+    .button--muted:hover {
+      background-color: #fff; }
 
 .header {
   background-color: #fff;

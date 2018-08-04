@@ -1,18 +1,21 @@
 $parisienne: 'Parisienne', cursive;
 $roboto: 'Roboto', sans-serif;
+$pacifico: 'Pacifico', cursive;
 
 body {
-	font-family: $roboto;
+  font-family: $roboto;
 }
 
 h2 {
-	font-size: 1.8rem;
+  color: $text-medium;
+  font-size: 2rem;
+  font-family: $pacifico;
 }
 
 h3 {
-	font-size: 1.4rem;
+  font-size: 1.4rem;
 }
 
 .hero-title {
-	font-family: $parisienne;
+  font-family: $parisienne;
 }

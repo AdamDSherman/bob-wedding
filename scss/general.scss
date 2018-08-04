@@ -23,3 +23,13 @@
         margin-top: -32px;
     }
 }
+
+.spacer {
+    &--top {
+        margin-top: 20px;
+    }
+
+    &--bottom {
+        margin-bottom: 20px;
+    }
+}

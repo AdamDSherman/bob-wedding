@@ -66,6 +66,13 @@ h3 {
   border-bottom: 1px solid #f8f8f8; }
   .header__logo {
     margin: 10px 0; }
+  .header__language {
+    right: 0;
+    padding: 5px;
+    position: absolute;
+    font-size: .8rem; }
+    .header__language a {
+      color: #808c99; }
 
 .menu {
   margin-top: 50px; }
